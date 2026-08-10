@@ -11,10 +11,11 @@ dependencies = [
     "fastapi>=0.141.1",
     "pandas>=3.0.5",
     "requests>=2.34.2",
+    "uvicorn>=0.52.1",
 ]
 
 [project.scripts]
-python-code = "python_code:main"
+python-code = "python_code.main:main"
 
 [build-system]
 requires = ["uv_build>=0.12.3,<0.13.0"]
