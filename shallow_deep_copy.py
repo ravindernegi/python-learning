@@ -1,4 +1,3 @@
-
 # Simple shallow copy: Now numbers and new_numbers are two separate lists:
 
 numbers = [1, 2, 3]
@@ -23,9 +22,9 @@ print(new_numbers)
 #             ↑
 # new_numbers ─┘
 
-#The easiest way to understand shallow copy vs deep copy is with a nested list.
+# The easiest way to understand shallow copy vs deep copy is with a nested list.
 
-#1. Shallow Copy : A shallow copy creates a new outer object, but the nested objects are still shared.
+# 1. Shallow Copy : A shallow copy creates a new outer object, but the nested objects are still shared.
 
 import copy
 

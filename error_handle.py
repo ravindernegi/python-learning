@@ -1,8 +1,8 @@
 try:
-    print('Hello')
+    print("Hello")
 except Exception:
     print("Error")
-finally :
-    print('All settled')
+finally:
+    print("All settled")
 
 print("End Exception")

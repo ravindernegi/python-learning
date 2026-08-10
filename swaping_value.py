@@ -3,7 +3,7 @@
 a = 78
 b = 90
 
-b , a = a , b
+b, a = a, b
 
 print(a, b)
 

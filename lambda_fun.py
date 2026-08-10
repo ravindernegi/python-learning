@@ -1,5 +1,4 @@
-#Anonymous Functions with Lambda Expressions
-
+# Anonymous Functions with Lambda Expressions
 
 
 fun = lambda num: num * 4

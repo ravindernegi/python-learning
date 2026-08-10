@@ -1,14 +1,14 @@
 def display(num):
     return num
 
-def perform(num, call_back): 
+
+def perform(num, call_back):
     result = call_back(num)
-    print (result)
+    print(result)
 
 
 count = 10
 perform(count, display)
 
 
-
-# Note: perform is the Higher order function 
+# Note: perform is the Higher order function
