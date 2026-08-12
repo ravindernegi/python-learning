@@ -1,6 +1,6 @@
 class demo_class:
 
-    name = "Java"
+    name = "Java"  # class vairable
 
     def __new__(cls):  # Construct
         print("Construct")
@@ -12,6 +12,14 @@ class demo_class:
 
     def main(self, str):
         print("Hello Python", str)
+
+    @classmethod
+    def info(self):
+        print(self.name)
+
+    @staticmethod
+    def test():
+        print("static method")
 
 
 obj = demo_class()
@@ -29,3 +37,8 @@ print(type(a))
 # __init__ → initializes the already-created object
 # self → current instance/object
 # cls → current clas
+
+
+print(obj.info())
+
+print(type(obj.test()))
