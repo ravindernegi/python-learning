@@ -1,4 +1,4 @@
-class demo_class:
+class DemoClass:
 
     name = "Java"  # class vairable
 
@@ -22,7 +22,7 @@ class demo_class:
         print("static method")
 
 
-obj = demo_class()
+obj = DemoClass()
 print(type(obj))
 
 obj.main(" is best")

@@ -1,4 +1,4 @@
-class demo_class:
+class DemoClass:
 
     name = "Java"
 
@@ -10,7 +10,7 @@ class demo_class:
         print("Hello Python", str)
 
 
-obj = demo_class()
+obj = DemoClass()
 print(type(obj))
 
 obj.main(" is best")

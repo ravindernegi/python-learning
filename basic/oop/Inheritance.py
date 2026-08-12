@@ -133,7 +133,7 @@ print(D.mro())
 # Using __init__() and super() with Inheritance
 
 
-class user:
+class User:
 
     def __init__(self):
         pass
@@ -142,7 +142,7 @@ class user:
         print(name)
 
 
-class user_b(user):
+class UserB(User):
 
     def __init__(self):
         pass
@@ -151,5 +151,5 @@ class user_b(user):
         super.get_name()
 
 
-user_obj = user()
-user.get_name("Ravi")
+user_obj = User()
+user_obj.get_name("Ravi")

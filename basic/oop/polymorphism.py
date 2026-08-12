@@ -1,24 +1,24 @@
 # Polymorphism and Duck Typing
-class laptop:
+class Laptop:
     def build(self):
         print("Laptop Builds")
 
 
-class tablet:
+class Tablet:
     def open_pdf(self):
         print("open pdf")
 
 
-class alians:
-    def code(self, machine: laptop):
+class Alians:
+    def code(self, machine: Laptop):
         print("Alians buliding")
         machine.build()
 
 
-laptop_obj = laptop()
-tablet_obj = tablet()
+laptop_obj = Laptop()
+tablet_obj = Tablet()
 
-code_obj = alians()
+code_obj = Alians()
 code_obj.code(laptop_obj)
 
 code_obj.code(tablet_obj)
